@@ -5,7 +5,7 @@ using DG.Tweening;
 
 public class PlayerController : MonoBehaviour {
 
-    public Movement[] m_Moves;
+    public MoveScriptable[] m_Moves;
 
     public StickController m_LeftStick;
     public StickController m_RightStick;
@@ -23,7 +23,7 @@ public class PlayerController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		foreach(Movement m in m_Moves)
+		foreach(MoveScriptable m in m_Moves)
         {
             if (Input.GetKeyDown(m.m_Key))
             {
