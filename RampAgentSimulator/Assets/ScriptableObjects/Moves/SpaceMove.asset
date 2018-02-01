@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8b5f961e9067f345b2c78210579352d, type: 3}
+  m_Name: SpaceMove
+  m_EditorClassIdentifier: 
+  m_LeftHandPos: {x: 0.37, y: 1.35, z: 0.1}
+  m_RightHandPos: {x: -0.37, y: 1.35, z: 0.1}
+  m_LeftHandRot: {x: 0, y: 0, z: 90}
+  m_RightHandRot: {x: 0, y: 0, z: -90}
+  m_Key: 32
