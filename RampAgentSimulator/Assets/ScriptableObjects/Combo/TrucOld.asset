@@ -9,7 +9,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7d0f4820316c4a5469fd0a171c511a1d, type: 3}
-  m_Name: Punch 1
+  m_Name: TrucOld
   m_EditorClassIdentifier: 
-  keys: 
-  onFinished: 
+  keys: 610000007a000000650000007200000071000000730000006400000066000000
+  onFinished: IMAFIRINMYLAZOR
