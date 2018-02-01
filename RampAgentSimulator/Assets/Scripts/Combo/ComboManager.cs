@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 public class ComboManager : MonoBehaviour {
@@ -7,10 +6,10 @@ public class ComboManager : MonoBehaviour {
 
     public KeyCode[] allowedKeys;
 
-    public string display;
+    private string display;
 
     public Combo[] combos;
-    public List<KeyCode> currentCombo;
+    private List<KeyCode> currentCombo;
 
     public void Awake() {
         current = this;
