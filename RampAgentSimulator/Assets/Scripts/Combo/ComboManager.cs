@@ -19,7 +19,12 @@ public class ComboManager : MonoBehaviour {
     private void Update() {
         foreach (var key in allowedKeys) {
             if(Input.GetKeyDown(key)) {
+                if(GameManager.current.mana - (1 * GameManager.current.manaCostFactor) < 0) {
+                    Debug.Log(GameManager.current.noManaText);
+                    return;
+                }
                 currentCombo.Add(key);
+                GameManager.current.mana -= 1 * GameManager.current.manaCostFactor;
                 break;
             }
         }
