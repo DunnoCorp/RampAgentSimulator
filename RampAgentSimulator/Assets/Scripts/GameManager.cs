@@ -12,13 +12,42 @@ public class GameManager : MonoBehaviour {
 
     public string noManaText = "NO MANA";
 
+    public bool m_Empty = false;
+    public float m_EmptyReloadTime = 2f;
+    private float emptyDuration = 0f;
+
     private void Awake() {
         current = this;
         DontDestroyOnLoad(gameObject);
     }
 
     private void Update() {
-        mana += 1f * manaRegenFactor * Time.deltaTime;
+
+        //EMPTY CHECK
+        if (mana <= 0 && !m_Empty)
+        {
+            m_Empty = true;
+            emptyDuration = 0f;
+        }
+
+        //EMPTY RELOAD
+        if (m_Empty)
+        {
+            emptyDuration += Time.deltaTime;
+            if (emptyDuration >= m_EmptyReloadTime)
+            {
+                m_Empty = false;
+                mana = 1f;
+            }
+        }
+
+        //REGEN
+        if (!m_Empty)
+        {
+            mana += 1f * manaRegenFactor * Time.deltaTime;
+        }
+
+
         mana = Mathf.Clamp(mana, 0f, manaMax);
     }
 
