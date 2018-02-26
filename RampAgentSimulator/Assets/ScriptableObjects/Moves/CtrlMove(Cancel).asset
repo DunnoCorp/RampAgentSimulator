@@ -9,10 +9,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a8b5f961e9067f345b2c78210579352d, type: 3}
-  m_Name: SpaceMove
+  m_Name: CtrlMove(Cancel)
   m_EditorClassIdentifier: 
-  m_LeftHandPos: {x: 0.37, y: 1.35, z: 0.1}
-  m_RightHandPos: {x: -0.37, y: 1.35, z: 0.1}
-  m_LeftHandRot: {x: 0, y: 0, z: 90}
-  m_RightHandRot: {x: 0, y: 0, z: -90}
-  m_Key: 32
+  m_LeftHandPos: {x: -0.25, y: 0.85, z: 0.25}
+  m_RightHandPos: {x: 0.25, y: 0.85, z: 0.25}
+  m_LeftHandRot: {x: 90, y: 0, z: 0}
+  m_RightHandRot: {x: 90, y: 0, z: 0}
+  m_Key: 306
