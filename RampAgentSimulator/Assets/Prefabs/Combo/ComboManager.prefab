@@ -56,3 +56,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 0aa61043209509249ad246d8732bfc52, type: 2}
   - {fileID: 11400000, guid: f54fc308622d7bd438412410d03ee96f, type: 2}
   - {fileID: 11400000, guid: ec5dd07610a6a1942bace9de4aadd3bd, type: 2}
+  m_AutoResetTime: 3

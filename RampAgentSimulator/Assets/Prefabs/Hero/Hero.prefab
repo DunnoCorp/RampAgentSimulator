@@ -1662,6 +1662,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 7bdf143bd4a3bb544b23345cf19c2573, type: 2}
   - {fileID: 11400000, guid: 83ca4095bfb401b4aae2f6db288a5523, type: 2}
   - {fileID: 11400000, guid: df646c4a61deeb645af106b87186137b, type: 2}
+  - {fileID: 11400000, guid: 0cc61d348bb2d9643a70b0a5ad584c1b, type: 2}
   m_LeftStick: {fileID: 114209432410916784}
   m_RightStick: {fileID: 114805825744348130}
   m_LookAt: {fileID: 4578158795992730}
